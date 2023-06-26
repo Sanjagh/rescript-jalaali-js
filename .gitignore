@@ -1,0 +1,17 @@
+.DS_Store
+*.DS_Store
+.metals/
+.vscode/
+node_modules/
+.vim/
+__pycache__/
+
+target/
+.bloop/
+project/target/
+project/project/
+project/metals.sbt
+.metals/
+.projectile
+.idea/
+.ammonite/

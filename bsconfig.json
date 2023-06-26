@@ -1,0 +1,23 @@
+{
+  "name": "rescript-jalaali-js",
+  "bsc-flags": ["-open Belt", "-bs-super-errors"],
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    }
+    
+  ],
+  "package-specs": [
+    {
+      "module": "es6",
+      "in-source": true
+    }
+  ],
+  "jsx": { "version": 4, "mode": "classic" },
+  "bs-dependencies": [
+    "@rescript/react"
+  ],
+  "suffix": ".bs.js",
+  "namespace": false
+}

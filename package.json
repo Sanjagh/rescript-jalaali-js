@@ -1,0 +1,31 @@
+{
+  "name": "rescript-jalaali-js",
+  "version": "1.0.0",
+  "description": "rescript binding for jalaali js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "res:clean": "rescript clean",
+    "res:dev": "rescript build -w",
+    "res:build": "rescript build"
+  },
+  "author": "Sanjagh",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@rescript/react": "^0.11.0",
+    "next": "^13.4.7",
+    "rescript": "^10.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sanjagh/rescript-jalaali-js.git"
+  },
+  "keywords": [
+    "rescript",
+    "jalaali",
+    "js"
+  ],
+  "bugs": {
+    "url": "https://github.com/Sanjagh/rescript-jalaali-js/issues"
+  },
+  "homepage": "https://github.com/Sanjagh/rescript-jalaali-js#readme"
+}
